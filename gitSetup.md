@@ -1,6 +1,6 @@
 # Club Git Tutorial: Setting up your Environment
 
-This tutorial will guide you through using Git, Git Bash, VS Code, and GitHub for our club projects. Even if you’ve never used Git before, follow these steps carefully.
+This tutorial will guide you through using Git, Git Bash, VS Code, and GitHub for our club projects. Even if you’ve never used Git before, follow these steps carefully. Already setup? Go to [workflows](https://github.com/TBC-Projects/Training/blob/main/gitWorkflow.md).
 
 ## What is Git?
 
