@@ -73,7 +73,7 @@ Applications:
       2. The circuit should still be terminated at a GND pin.  
       3. See Basic Software for how to control an Output Circuit.
 
-![][image1]  
+![Arduino Output Circuit](images/image1.png)  
 Example Arduino Output Circuit with an LED on port 13
 
 2. Input Circuits  
@@ -82,7 +82,7 @@ Example Arduino Output Circuit with an LED on port 13
    3. On your breadboard, there must be some sort of interrupt. Otherwise, there will be a constant signal sent to the Arduino, which is meaningless. This can be achieved by incorporating a button, switch, or potentiometer (for PWM/Analog inputs) into the input circuit. The Arduino needs to be able to distinguish between on (HIGH) and off (LOW).  
    4. See Basic Software for how to use your Input Circuit to control your Output Circuit.
 
-![][image2]  
+![Input Output Piano](images/image2.png)  
 Example Input/Output “Piano” Circuit demonstrating use of buttons for digital input on pins 2, 3 ,4, and speaker for digital output on pin 8
 
 ---
@@ -191,12 +191,15 @@ void loop()
 
 (REQUIRED) External Voltage: Obviously, to put our Arduino projects to use we don’t want to be beholden to a computer\! After uploading your program to your Arduino, you can continue to use your program by providing a voltage source to the Arduino. Connect the positive terminal of a battery to the Vin (Voltage in) port, and the negative terminal to any ground port. Your Arduino project is now functionally independent of your computer.
 
-![][image3]  
+![External Voltage](images/image3.png)  
 Example circuit demonstrating the use of an external voltage source with an Arduino Uno
 
 (RECOMMENDED) Raspberry Pi Pico:   
 Raspberry Pi Pico is a microcontroller just like Arduino. It is much smaller than a Uno but still larger than a Nano. Unlike Uno (USB B) and Nano (Mini USB), Raspberry Pi Pico uses Micro USB. ![][image4]  
+
+![Raspberry Pi](images/image4.png)  
 Raspberry Pi Pico Microcontroller (without pins)  
+
 When booting one for the first time, you will need to hold the boot button as you insert it. For a brief introduction to using the Raspberry Pi Pico natively with MicroPython in Thonny IDE, [watch this video](https://youtu.be/qYqUJC9z2_E). You can also use your Raspberry Pi Pico with the Arduino IDE. To give your IDE support, go to File \> Preferences \>  Board Manager URLs and paste in this link:  
 [https://github.com/earlephilhower/arduino-pico/releases/download/global/package\_rp2040\_index.json](https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json)  
 After doing that, go to Tools \> Board \> Boards Manager and then search for and install the Raspberry Pi Pico board package that you imported. After doing this, Raspberry Pi Pico should be accessible in your Board menu and programmable with Arduino C.
